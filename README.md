@@ -9,4 +9,6 @@ then i merged user_id and ratings by anime_id to get information about amines(na
 now as the shape of the data becomes very large to process(20000,7852) so i performed Principal Component Analysis on it to reshape it.
 now at this point we have done all the required preprocessing on the data. now all that left was feeding to ML algorithm.
 i used KNN algorithm to search for patterns and form cluster. i found 4 clusters in total. and then i gave each user its cluster number.
-then for each cluster we find mean rating for every anime and sort them accordingly and extracts top 15 animes(by mean rating) and form word cloud of genre for every cluster.
+
+### result
+for each cluster(4 in total) i calculated mean rating of every anime and sort them accordingly and extracts top 15 animes(by mean rating) and form word cloud of genre for every cluster.
